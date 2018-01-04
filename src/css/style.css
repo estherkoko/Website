@@ -23,9 +23,10 @@ a:visited {
 	padding: 10px;
 	margin:3px;
 	display: inline-block;
-
 }
-
+.divspace {
+	margin-top: 20px;
+}
 .bg-light{
 	background-color: #fff!important;
 
