@@ -1,0 +1,14 @@
+{
+  "name": "estherkolade",
+  "version": "1.0.0",
+  "description": "This is my website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Esther Kolade",
+  "license": "ISC",
+  "dependencies": {
+    "popper.js": "^1.12.9"
+  }
+}
