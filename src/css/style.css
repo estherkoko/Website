@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Mono');
 body{
-	font-family: 'PT Mono', monospace;
-
+	
+    font-family: 'PT Mono', monospace;
+    height: 100%;
+    background: linear-gradient(208deg, white, white 52%, grey);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 li{
@@ -38,3 +43,13 @@ a:visited {
    justify-content: center;
 }
    
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  
+}
